@@ -61,10 +61,10 @@ def dennis_ritchies_language
 end
 
 def adding_matz
-# :yukihiro_matsumoto => {
-#   :known_for => "Ruby",
-#    :languages => ["LISP", "C"]
-# }
+ programmer_hash.merge(:yukihiro_matsumoto => {
+   :known_for => "Ruby",
+    :languages => ["LISP", "C"])
+
 
 	programmer_hash =
  		{
